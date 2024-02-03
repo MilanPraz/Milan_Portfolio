@@ -23,7 +23,7 @@ function EmailSection() {
   return (
     <section
       id="contact"
-      className=" grid md:grid-cols-2 my-12 py-24 gap-4 relative container mx-auto"
+      className=" overflow-hidden grid md:grid-cols-2 my-12 py-24 gap-4 relative container mx-auto"
     >
       <div className=" bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-purple-900 to-transparent rounded-full h-80 w-80 z-0 blur-3xl  absolute top-2/3 -left-4 transform -translate-x-1/2 -translate-1/2  animate-bounce-slow"></div>
       <div className=" overflow-clip bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-purple-800 to-transparent rounded-full h-80 w-80 z-0 blur-3xl opacity-70 absolute -top-4 -right-12 md:-right-96 transform -translate-x-1/2 -translate-1/2 animate-pulse"></div>
